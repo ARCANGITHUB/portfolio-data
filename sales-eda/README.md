@@ -23,19 +23,41 @@ This project showcases an **exploratory data analysis** on a sales dataset, focu
 ```
 sales-eda/
 ├── data/
-│ ├── raw/ — original dataset
-│ └── processed/ — cleaned dataset
-├── notebooks/ — Jupyter notebooks
-├── src/ — Python scripts (cleaning, plotting)
-├── requirements.txt — dependencies
-└── README.md — project documentation
+│ ├── raw/ — Superstore_Sales.csv
+│ └── processed/ — superstore_cleaned.csv
+│ 
+├── notebooks/ — 01_EDA.ipynb
+│ 
+├── images/
+│ ├── Barplot Profit Margin by Category.png
+│ ├── Correlation heatmap.png
+│ ├── Discount vs Profit Relationship.png
+│ ├── Monthly Profit Trend by Year.png
+│ ├── Monthly Sales Trend by Year.png
+│ ├── Profit Heatmap category vs region.png
+│ ├── Sales Heatmap category vs region.png
+│ ├── Sales vs Profit Relationship.png
+│ ├── Total profit by category and region.png
+│ ├── Total profit by segment and region.png
+│ └── Total sales by Segment and Region.png
+│ 
+├── src/
+│ 
+├── requirements.txt - Dependencies list
+├── README.md - Project documentation
+└── .gitignore - Ignored files and folders
 ```
 ---
 
 ## 📈 Insights
-- 
-- 
-- 
+
+- 🧍‍♂️ **Consumer segment** drives most of the sales, especially in the West and East regions. However, it has the lowest profit margin (≈11.5%), possibly due to higher discounts or lower pricing flexibility.  
+- 🏠 **Home Office segment** achieves the **highest profit margin (≈14.0%)**, despite lower total sales — suggesting an effective pricing strategy or lower operational costs.  
+- 💼 **Technology** and **Office Supplies** are the most profitable categories overall.  
+- 🪑 **Furniture** has low margins and even records losses in the Central region.  
+- 🌎 **East and West regions** generate the highest sales and profits, while the **South region underperforms** across all categories.  
+- 📆 **Sales and profits show strong seasonality**, peaking in **November and December** — likely due to holiday demand.  
+- 📈 **Year-over-year growth** is consistent in both sales and profit, indicating overall business expansion.  
 
 ---
 
