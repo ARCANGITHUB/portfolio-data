@@ -1,0 +1,14 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Python cache (if used)
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Power BI temp files
+*.pbix.backup
